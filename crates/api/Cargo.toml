@@ -1,0 +1,22 @@
+[package]
+name = "iaop_workflow_service-api"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+iaop_workflow_service-application.workspace = true
+iaop_workflow_service-infrastructure.workspace = true
+iaop_workflow_service-domain.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+uuid.workspace = true
+chrono.workspace = true
+tracing.workspace = true
+tokio.workspace = true
+sqlx.workspace = true
+axum.workspace = true
+utoipa.workspace = true
+tower.workspace = true
